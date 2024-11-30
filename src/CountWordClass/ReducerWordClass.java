@@ -1,4 +1,4 @@
-package Count_Word_Class;
+package CountWordClass;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;

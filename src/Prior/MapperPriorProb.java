@@ -16,9 +16,9 @@ public class MapperPriorProb extends Mapper<Object, Text, Text, Text> {
     @Override
     protected void setup(Context context) throws IOException, InterruptedException {
         Configuration conf = context.getConfiguration();
-        Path getNSentences = new Path(conf.get("subprior"));
+        Path numberOfLines = new Path(conf.get("Nsamples"));
         FileSystem fs = FileSystem.get(conf);
-        FileStatus[] fileStatuses = fs.listStatus(getNSentences);
+        FileStatus[] fileStatuses = fs.listStatus(numberOfLines);
         for (FileStatus status : fileStatuses) {
             Path filePath = status.getPath();
             if (status.isFile()) {

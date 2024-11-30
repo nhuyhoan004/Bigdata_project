@@ -1,4 +1,4 @@
-package Count_Any_Class;
+package Test;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
@@ -6,7 +6,7 @@ import org.apache.hadoop.mapreduce.Reducer;
 
 import java.io.IOException;
 
-public class ReducerAnyClass extends Reducer<Text, IntWritable, Text, IntWritable> {
+public class ReducerEvaluation extends Reducer<Text, IntWritable, Text, IntWritable> {
     private final IntWritable totalCount = new IntWritable();
 
     @Override
