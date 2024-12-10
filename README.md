@@ -1,5 +1,5 @@
 # Bigdata Project
-## Danh sách thanh viên nhóm 
+## Danh sách thành viên nhóm 
 - 22022546 - Tạ Nguyên Dũng 
 - 22022669 - Trần Phạm Hoàng
 - 22022590 - Ngô Huy Hoàn 
